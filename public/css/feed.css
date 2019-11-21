@@ -1,0 +1,17 @@
+.feed img {
+    width: 25%;
+}
+
+.feed-rss:hover {
+    background-color:  #e6ecf0;
+}
+
+.feed-rss {
+    margin-bottom: 10px;
+}
+.feed {
+    font-size: 13px;
+}
+.header-feeds {
+    margin-bottom: 10px;
+}

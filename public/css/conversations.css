@@ -1,0 +1,136 @@
+.img-modal {
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeModal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.conversations-item {
+    border-bottom: 1px solid #e6ecf0;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    flex: 1 1 auto;
+    color: black;
+}
+
+.conversations-item:hover {
+    background-color:  #e6ecf0;
+    color: black;
+    text-decoration: none;
+}
+
+.conversations-item-header-logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conversations-item-header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.conversations-item-header-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversations-item-header-date {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: right;
+}
+
+.new-conversation:hover {
+    background-color: #4FAA69 !important;
+}
+
+.logo-homedoc {
+    cursor: pointer;
+    height: 100%;
+}
+
+.logo-homedoc:hover {
+    transform: scale(1.1);
+}
+.logo-medecin {
+    cursor: pointer;
+    height: 100%;
+}
+.logo-medecin:hover {
+    transform: scale(1.1);
+}
+.conversations-header {
+    height: 80px;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-content {
+    width: 70%;
+    background: rebeccapurple;
+}

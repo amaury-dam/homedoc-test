@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.item-profil-surroundings {
+    width: 100%;
+    display: flex;
+}
+.item-profil {
+    border: 1px solid #4c934c;
+    margin: 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.item-profil-doctor {
+    border: 1px solid #0083ca;
+    margin: 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.item-profil-33 {
+    border: 1px solid #4c934c;
+    margin: 15px;
+    border-radius: 5px;
+    width: 33%;
+}
+
+.item-profil-title {
+    background: #4c934c;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.item-profil-title-doctor {
+    background: #0083ca;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.item-profil-data {
+    padding: 10px;
+}
+
+.item-menu-doctor:hover {
+    background-color: #0072B0;
+    border-radius: 10px;
+}
+
+.item-menu-patient:hover {
+    background-color: #4FAA69;
+    border-radius: 5px;
+}
+
+.login-block-doctor{
+    background: #b4b6b8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0083ca, #0083ca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0083ca, #0083ca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float:left;
+    width:100%;
+    padding : 200px 0;
+}
+
+.login-block-admin{
+    background: #b4b6b8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #343a40, #343a40);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #343a40, #343a40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float:left;
+    width:100%;
+    padding : 200px 0;
+}
+
+.login-block-patient{
+    background: #b4b6b8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4FAA69, #4FAA69);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4FAA69, #4FAA69); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float:left;
+    width:100%;
+    padding : 200px 0;
+}
+
+.banner-sec-doctor{background:url("/ressources/background-doctor.jpg")  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.banner-sec-patient{background:url("/ressources/background-patient.jpg")  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.login-box{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.login-sec{padding: 20px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #343a40;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#b4b6b8; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.label-login {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.35rem; }
+
+.color_title {
+  color: rgb(40, 167, 69);
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.logo {
+  width: 70%;
+  display: block;
+}
+
+.circle{
+  animation-duration: 5s;
+  animation-name: slidein;
+  margin: 0 auto;
+  margin-top: 20px !important;
+  width:200px;
+    background: linear-gradient(to right, rgb(255, 185, 52) , rgb(255, 99, 71));
+  height:200px;
+  text-align:center;
+  border-radius:100px;
+  line-height: 190px;
+  font-size: 50px;
+  color: white;
+}
+
+.avantages{
+  border: 3px solid rgb(248, 158, 35);
+    background: linear-gradient(to right, rgb(255, 185, 52) , rgb(255, 99, 71));
+  color: white;
+}
+
+.button {
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+.button-color {
+  background-color: rgba(248, 158, 35, 0.6);
+  border-color: rgb(248, 158, 35);
+  color: white;
+}
+.outils {
+  width: 70%;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.rendu_img{
+  width: 70%;
+  display: block;
+  margin-bottom: 25px;
+}
+.descript_chiffres {
+  margin-top: 20px;
+}
+.introduction {
+  color: #F89E23 !important;
+  font-weight: bold;
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  margin-top: 50px;
+  padding-bottom: 50px }
+section.resume-section .resume-item .resume-date {
+  min-width: none; }
